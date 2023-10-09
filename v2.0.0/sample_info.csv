@@ -1,3 +1,0 @@
-seq_id,sample_name,alignment_file,direction,barcode_1,barcode_2,length,comment
-1,1_CGTACGAGTCTT_CTAGTGAGTCTA,~/package/guide-caller/alignment_files/hhPoolA-B_fixed_combined.csv,single,CGTACGAG,CTAGTGAG,8,
-end,,,,,,,
