@@ -16,7 +16,7 @@ After ensuring the prerequisites, download the guide-caller package and extract 
 
 ## Usage
 ### guide_caller.sh
-This script processes FASTQ files and extracts and counts sgRNA sequences. It uses various genomic data processing tools and integrates with matrix_shaper.py.
+This script processes FASTQ files and extracts and counts sgRNA sequences. It uses various genomic data processing tools and integrates with `matrix_shaper.py`.
 
 ### usage:
 ```bash
@@ -28,7 +28,7 @@ Options:
   -c VALUE    Specify the CPU core
 ```
 ### matrix_shaper.py
-A Python script for transforming and analyzing count data from the CRISPR experiments. It generates a result matrix with statistical analyses in guide_caller.sh.
+A Python script for transforming and analyzing count data from the CRISPR experiments. It generates a result matrix with statistical analyses in `guide_caller.sh`.
 
 ### usage:
 ```bash
