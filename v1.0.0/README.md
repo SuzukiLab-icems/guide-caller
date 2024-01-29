@@ -28,7 +28,7 @@ Options:
   -c VALUE    Specify the CPU core
 ```
 ### matrix_shaper.py
-A Python script for transforming and analyzing count data from the CRISPR experiments. It generates a result matrix with statistical analyses.
+A Python script for transforming and analyzing count data from the CRISPR experiments. It generates a result matrix with statistical analyses in guide_caller.sh.
 
 ### usage:
 ```bash
