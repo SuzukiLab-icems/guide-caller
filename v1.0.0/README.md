@@ -1,4 +1,4 @@
-# **guide-caller v1.0.0**
+# guide-caller v1.0.0
 ## Overview
 guide-caller v1.0.0 is a comprehensive toolset designed for processing and analyzing GeCKO v2 CRISPR Knockout Pooled Library screening.
 This package includes two primary components: guide_caller.sh, a shell script that orchestrates the data processing workflow, 
@@ -45,3 +45,8 @@ Noguchi, Y., Onodera, Y., Maruoka, M., Miyamoto, T., Kosako, H., Suzuki., J. 202
 
 ## License
 This software is released under the MIT License. See LICENSE for more details.
+
+## References
+1. Li, W., Xu, H., Xiao, T., Cong, L., Love, M.I., Zhang, F., Irizarry, R.A., Liu, J.S., Brown, M.A., and Liu, X.S. MAGeCK enables robust identification of essential genes from genome-scale CRISPR/Cas9 knockout screens. Genome Biology. 2014; 15: 554. 10.1186/s13059-014-0554-4
+2. Martin, M. Cutadapt removes adapter sequences from high-throughput sequencing reads. EMBnet.journal. 2011; 17: 10-12. 10.14806/ej.17.1.200
+3. FastQC: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
