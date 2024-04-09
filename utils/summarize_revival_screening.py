@@ -21,6 +21,9 @@ import warnings
 warnings.simplefilter('ignore', FutureWarning)
 pd.options.mode.chained_assignment = None
 
+print('ex. python ./utils/summarize_revival_screening.py -m meta_data_for_revival_screening.csv')
+print('ex. python ./utils/summarize_revival_screening.py -m meta_data_for_revival_screening.csv -n 25 -f False')
+
 def parser_setting():
 	parser = argparse.ArgumentParser()
 	parser.add_argument('-m', '--meta_data', type=str, help='Specify your meta data (csv format).')
