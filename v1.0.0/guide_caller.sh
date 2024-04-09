@@ -20,7 +20,7 @@
 #[Directory Architecture]
 #guide_caller
 #	|
-#	|-guide_caller_v1.0.0
+#	|-v1.0.0
 #	|	|-guide_caller.sh
 #	|	|-matrix_shaper.py
 #	|
@@ -65,7 +65,7 @@ function argparse {
 }
 
 function config {
-	dir=$(pwd)"/guide_caller_v1.0.0"
+	dir=$(pwd)"/v1.0.0"
 	echo "###########################################################"
 	echo "Start guide_caller.."
 	echo " "
