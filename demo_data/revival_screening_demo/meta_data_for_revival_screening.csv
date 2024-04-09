@@ -1,8 +1,0 @@
-sample_id,Pool,Round
-A_1st,AB,1
-A_2nd,AB,2
-A_Input,AB,Input
-B_1st,AB,1
-B_2nd,AB,2
-B_Input,AB,Input
-,"*You should select A, B or AB. You can choose `AB` If you perform screening with mixed Pool or want to integrate Pool A and B  results (Please delete this comment).","*This script is designed for pair-wise analysis. 1: before enrichment, 2: after enrichment, Input: Input library (Please delete this comment when running script)"
