@@ -21,6 +21,8 @@ import warnings
 warnings.simplefilter('ignore', FutureWarning)
 pd.options.mode.chained_assignment = None
 
+print('python ./utils/summarize_clone_coverage.py -m meta_data_for_coverage.csv -d coverage_demo')
+
 def parser_setting():
 	parser = argparse.ArgumentParser()
 	parser.add_argument('-m', '--meta_data', help='Specify your meta data (csv format).')
