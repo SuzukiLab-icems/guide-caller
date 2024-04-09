@@ -1,0 +1,43 @@
+name: mageck
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - ca-certificates=2023.01.10=hca03da5_0
+  - libcxx=14.0.6=h848a8c0_0
+  - libffi=3.4.2=hca03da5_6
+  - ncurses=6.4=h313beb8_0
+  - openssl=1.1.1t=h1a28f6b_0
+  - pip=23.0.1=py39hca03da5_0
+  - python=3.9.16=hc0d8a6c_2
+  - readline=8.2=h1a28f6b_0
+  - setuptools=66.0.0=py39hca03da5_0
+  - sqlite=3.41.2=h80987f9_0
+  - tk=8.6.12=hb8d0fd4_0
+  - wheel=0.38.4=py39hca03da5_0
+  - xz=5.2.10=h80987f9_1
+  - zlib=1.2.13=h5a0b063_0
+  - pip:
+    - contourpy==1.0.7
+    - cutadapt==4.4
+    - cycler==0.11.0
+    - dnaio==0.10.0
+    - fonttools==4.39.3
+    - importlib-resources==5.12.0
+    - kiwisolver==1.4.4
+    - mageck==0.5.9.4
+    - matplotlib==3.7.1
+    - numpy==1.24.3
+    - packaging==23.1
+    - pandas==2.0.1
+    - pillow==9.5.0
+    - pyparsing==3.0.9
+    - python-dateutil==2.8.2
+    - pytz==2023.3
+    - scipy==1.10.1
+    - seaborn==0.12.2
+    - six==1.16.0
+    - tzdata==2023.3
+    - xopen==1.7.0
+    - zipp==3.15.0
+prefix: /Users/noguchiyuki/miniforge3/envs/mageck
