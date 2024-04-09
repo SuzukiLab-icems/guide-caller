@@ -4,14 +4,8 @@
 This package includes two primary components: guide_caller.sh, a shell script that orchestrates the data processing workflow, 
 and matrix_shaper.py, a Python script for advanced data analysis and matrix generation.
 
-## Installation
-To use guide-caller, ensure you have the following prerequisites installed:\
-•	A UNIX-like environment (for running shell scripts)\
-•	Python 3.9.16 (developer's environment)\
-•	Required Python libraries: NumPy, pandas\
-•	Cutadapt v4.1 (developer's environment)\
-•	FastQC v0.12.1 (developer's environment)\
-•	MAGeCK v0.5.9.4 (developer's environment)\
+## Requirements
+To use guide-caller, ensure you have the following prerequisites installed according to `requirements.txt`
 After ensuring the prerequisites, download the guide-caller package and extract its contents to your desired directory.
 
 ## Usage
