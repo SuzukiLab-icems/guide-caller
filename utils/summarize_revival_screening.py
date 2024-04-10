@@ -28,7 +28,7 @@ def parser_setting():
 	parser = argparse.ArgumentParser()
 	parser.add_argument('-m', '--meta_data', type=str, help='Specify your meta data (csv format).')
 	parser.add_argument('-d', '--your_directory', type=str, help='Specify your directory.')
-	parser.add_argument('-n', '--number_of_candidates', type=int, help='Specify the number of candidates for plot (Max=45, Default=45).')
+	parser.add_argument('-n', '--number_of_candidates', type=int, help='Specify the number of candidates for plot (Max=180, Default=45).')
 	parser.add_argument('-f', '--filter_low_count_sgRNA', type=str, help='Filter low count sgRNAs (Default: True)')
 	args = parser.parse_args()
 	return vars(args)
