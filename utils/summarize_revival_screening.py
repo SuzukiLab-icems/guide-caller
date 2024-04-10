@@ -121,7 +121,7 @@ def visualize_top_candidates(data, pool, out_dir, num_candidates):
 		style="ticks",
 		font_scale=2.5,
 		font='arial',
-		rc = {'figure.figsize':(int(1.0*num_candidates),int(0.5*num_candidates)),'axes.linewidth':2}
+		rc = {'figure.figsize':(int(0.5*num_candidates),int(0.3*num_candidates)),'axes.linewidth':2}
 		)
 	color_dict = dict({1:'orchid',0:'thistle'})
 	font_size = 36
