@@ -214,7 +214,7 @@ def enrichment_analysis(data_matrix, out_dir, num_candidates, filter_low_count_s
 		)
 		
 def main(meta_data, your_directory, number_of_candidates, filter_low_count_sgRNA):
-	if number_of_candidates is None: number_of_candidates = int(45)
+	if number_of_candidates is None: number_of_candidates = int(number_of_candidates)
 	if filter_low_count_sgRNA is None: filter_low_count_sgRNA = True
 	meta_data = pd.read_csv(f'./{your_directory}/{meta_data}').dropna(axis=0)
 	count_files = glob.glob(f'./{your_directory}/*/*/*.count.txt')
