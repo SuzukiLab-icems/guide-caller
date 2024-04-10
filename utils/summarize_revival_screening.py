@@ -121,7 +121,7 @@ def visualize_top_candidates(data, pool, out_dir, num_candidates):
 		style="ticks",
 		font_scale=2.5,
 		font='arial',
-		rc = {'figure.figsize':(int(0.5*num_candidates),int(0.3*num_candidates)),'axes.linewidth':2}
+		rc = {'figure.figsize':(int(0.6*num_candidates),int(0.3*num_candidates)),'axes.linewidth':2}
 		)
 	plt.rcParams['figure.subplot.bottom'] = 0.5
 	plt.rcParams['figure.subplot.right'] = 0.9
@@ -149,7 +149,7 @@ def visualize_top_candidates(data, pool, out_dir, num_candidates):
 		palette=color_dict,
 		hue="Enriched",
 		size="Log2FoldChange",
-		sizes=(500,1500),
+		sizes=(250,1000),
 		legend=False,
 		**kwargs,
 		zorder=2,
@@ -161,7 +161,7 @@ def visualize_top_candidates(data, pool, out_dir, num_candidates):
 	ax.set_ylim([1.05*min(df_plot['Log2(CPM+1)']),1.05*max(df_plot['Log2(CPM+1)'])])
 	plt.ylim([0.8*min(df_plot['Log2FoldChange']),1.2*max(df_plot['Log2FoldChange'])])
 	ax.legend(
-		bbox_to_anchor=(1.05, 1),
+		bbox_to_anchor=(1.02, 1.15),
 		loc='upper left',
 		frameon=False,
 		fontsize=font_size,
