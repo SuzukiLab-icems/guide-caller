@@ -123,6 +123,10 @@ def visualize_top_candidates(data, pool, out_dir, num_candidates):
 		font='arial',
 		rc = {'figure.figsize':(int(0.5*num_candidates),int(0.3*num_candidates)),'axes.linewidth':2}
 		)
+	plt.rcParams['figure.subplot.bottom'] = 0.5
+	plt.rcParams['figure.subplot.right'] = 0.9
+	plt.rcParams['figure.subplot.left'] = 0.05
+	plt.rcParams['figure.subplot.top'] = 0.9
 	color_dict = dict({1:'orchid',0:'thistle'})
 	font_size = 36
 	kwargs = {"edgecolor":"black", "linewidth":1.5}
@@ -155,7 +159,7 @@ def visualize_top_candidates(data, pool, out_dir, num_candidates):
 	ax2.set_ylabel('Log2FoldChange', fontsize=font_size, rotation=270, labelpad=40)
 	ax.set_xticklabels(labels=labels["Gene"], rotation=315, ha ='left')
 	ax.set_ylim([1.05*min(df_plot['Log2(CPM+1)']),1.05*max(df_plot['Log2(CPM+1)'])])
-	plt.ylim([1.2*min(df_plot['Log2FoldChange']),1.2*max(df_plot['Log2FoldChange'])])
+	plt.ylim([0.8*min(df_plot['Log2FoldChange']),1.2*max(df_plot['Log2FoldChange'])])
 	ax.legend(
 		bbox_to_anchor=(1.05, 1),
 		loc='upper left',
