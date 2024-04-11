@@ -19,6 +19,7 @@ dependencies:
   - zlib=1.2.13=h4dc903c_0
   - pip:
       - cutadapt==4.4
+      - dnaio==0.10.0
       - contourpy==1.1.1
       - cycler==0.12.1
       - fonttools==4.51.0
