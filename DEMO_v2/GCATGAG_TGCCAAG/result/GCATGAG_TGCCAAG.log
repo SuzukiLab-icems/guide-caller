@@ -1,0 +1,32 @@
+INFO  @ Thu, 11 Apr 2024 16:48:27: Parameters: /Users/nyuhki/miniforge3/envs/mageck/bin/mageck count -l ./alignment_files/hhPoolA-B_fixed_combined.csv -n GCATGAG_TGCCAAG --fastq ./DEMO_v2/GCATGAG_TGCCAAG/GCATGAG_TGCCAAG_trimmed_1.fastq.gz 
+INFO  @ Thu, 11 Apr 2024 16:48:27: Welcome to MAGeCK v0.5.9.5. Command: count 
+INFO  @ Thu, 11 Apr 2024 16:48:27: Header line of the library file detected; skip the first line ... 
+INFO  @ Thu, 11 Apr 2024 16:48:27: Loading 119461 predefined sgRNAs. 
+WARNING @ Thu, 11 Apr 2024 16:48:27: There are 0 sgRNAs with duplicated sequences. 
+INFO  @ Thu, 11 Apr 2024 16:48:27: Parsing FASTQ file ./DEMO_v2/GCATGAG_TGCCAAG/GCATGAG_TGCCAAG_trimmed_1.fastq.gz... 
+INFO  @ Thu, 11 Apr 2024 16:48:27: Determining the trim-5 length of FASTQ file ./DEMO_v2/GCATGAG_TGCCAAG/GCATGAG_TGCCAAG_trimmed_1.fastq.gz... 
+INFO  @ Thu, 11 Apr 2024 16:48:27: Possible gRNA lengths:20 
+INFO  @ Thu, 11 Apr 2024 16:48:27: Processing 0M reads ... 
+INFO  @ Thu, 11 Apr 2024 16:48:27: Read length:20 
+INFO  @ Thu, 11 Apr 2024 16:48:27: Total tested reads: 10000, mapped: 5378(0.5378) 
+INFO  @ Thu, 11 Apr 2024 16:48:27: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Thu, 11 Apr 2024 16:48:27: 0	5378	1.0 
+INFO  @ Thu, 11 Apr 2024 16:48:27: Auto determination of trim5 results: 0 
+INFO  @ Thu, 11 Apr 2024 16:48:27: Possible gRNA lengths:20 
+INFO  @ Thu, 11 Apr 2024 16:48:27: Processing 0M reads .. 
+INFO  @ Thu, 11 Apr 2024 16:48:28: Total: 10000. 
+INFO  @ Thu, 11 Apr 2024 16:48:28: Mapped: 5378. 
+DEBUG @ Thu, 11 Apr 2024 16:48:28: Initial (total) size factor: 1.0 
+DEBUG @ Thu, 11 Apr 2024 16:48:28: Median factor: 2.0 
+INFO  @ Thu, 11 Apr 2024 16:48:28: Final size factor: 2.0 
+INFO  @ Thu, 11 Apr 2024 16:48:28: Summary of file ./DEMO_v2/GCATGAG_TGCCAAG/GCATGAG_TGCCAAG_trimmed_1.fastq.gz: 
+INFO  @ Thu, 11 Apr 2024 16:48:28: label	sample1 
+INFO  @ Thu, 11 Apr 2024 16:48:28: reads	10000 
+INFO  @ Thu, 11 Apr 2024 16:48:28: mappedreads	5378 
+INFO  @ Thu, 11 Apr 2024 16:48:28: totalsgrnas	119461 
+INFO  @ Thu, 11 Apr 2024 16:48:28: zerosgrnas	115321 
+INFO  @ Thu, 11 Apr 2024 16:48:28: giniindex	0.9692156694531981 
+INFO  @ Thu, 11 Apr 2024 16:48:28: Loading Rnw template file: /Users/nyuhki/miniforge3/envs/mageck/lib/python3.9/site-packages/mageck/count_report.Rmd. 
+DEBUG @ Thu, 11 Apr 2024 16:48:28: Setting up the visualization module... 
+INFO  @ Thu, 11 Apr 2024 16:48:28: Loading Rnw template file: /Users/nyuhki/miniforge3/envs/mageck/lib/python3.9/site-packages/mageck/fastq_template.Rnw. 
+DEBUG @ Thu, 11 Apr 2024 16:48:28: Setting up the visualization module... 

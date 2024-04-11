@@ -1,0 +1,4 @@
+seq_id,your_directory,sample_name,alignment_file,barcode_1,barcode_2,length,cpu,"type(spCas9:ko,dCas:ia)"
+1,DEMO_v2,CGTACGAG_CTAGTGAG,hhPoolA-B_fixed_combined.csv,CGTACGAG,CTAGTGAG,8,15,ko
+2,DEMO_v2,GCATGAG_TGCCAAG,hhPoolA-B_fixed_combined.csv,GCATGAG,TGCCAAG,7,15,ko
+end,,,,,,,,
