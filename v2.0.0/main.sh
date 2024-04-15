@@ -1,4 +1,4 @@
-#!/usr/zsh
+#!/usr/sh
 echo "guide-caller main program"
 echo "Copyright (c) 2023 Yuki NOGUCHI, Jun Suzuki lab"
 echo "This code is free software; you can redistribute it and/or modify it"
