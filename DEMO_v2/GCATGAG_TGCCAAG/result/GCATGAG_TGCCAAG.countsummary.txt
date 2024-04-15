@@ -1,2 +1,0 @@
-File	Label	Reads	Mapped	Percentage	TotalsgRNAs	Zerocounts	GiniIndex	NegSelQC	NegSelQCPval	NegSelQCPvalPermutation	NegSelQCPvalPermutationFDR	NegSelQCGene
-./DEMO_v2/GCATGAG_TGCCAAG/GCATGAG_TGCCAAG_trimmed_1.fastq.gz	sample1	10000	5378	0.5378	119461	115321	0.9692	0	1	1	1	0.0
