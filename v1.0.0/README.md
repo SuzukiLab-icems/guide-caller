@@ -5,7 +5,7 @@ This package includes two primary components: guide_caller.sh, a shell script th
 and matrix_shaper.py, a Python script for advanced data analysis and matrix generation.
 
 ## Requirements
-To use guide-caller, ensure you have the following prerequisites installed according to `requirements.txt`.
+To use guide-caller, ensure you have the following prerequisites installed according to `mageck.yaml`.
 After ensuring the prerequisites, download the guide-caller package and extract its contents to your desired directory.
 
 ## Usage
