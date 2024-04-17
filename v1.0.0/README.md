@@ -13,6 +13,7 @@ After ensuring the prerequisites, download the guide-caller package and extract 
 This script processes FASTQ files and extracts and counts sgRNA sequences. It uses various genomic data processing tools and integrates with `matrix_shaper.py`.
 Before run this script, please check your directory architechture by `tree guide_caller`
 
+```
 guide_caller
 |
 |-v1.0.0
@@ -27,6 +28,7 @@ guide_caller
 		|-sample_name.fastq <- fastq format should be used (not fq, *,gz)
 	|-•••
 		|-•••
+```
 
 ### usage:
 ```bash
