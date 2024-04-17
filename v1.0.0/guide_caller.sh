@@ -15,7 +15,7 @@
 #3. FastQC: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
 #
 ##Detailed Usage:
-#You can run guide_caller by typing 'sh guide_caller_v1.0.0/guide_caller.sh -i <your directory> -f <alignment_file.csv> -c <CPU core>' in 'guide_caller' directory. Please type pwd and confirm your current directory is 'guide_caller.'
+#You can run guide_caller by typing 'sh ./v1.0.0/guide_caller.sh -i <your directory> -f <alignment_file.csv> -c <CPU core>' in 'guide_caller' directory. Please type pwd and confirm your current directory is 'guide_caller.'
 #
 #[Directory Architecture]
 #guide_caller
