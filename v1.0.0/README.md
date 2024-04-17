@@ -11,16 +11,33 @@ After ensuring the prerequisites, download the guide-caller package and extract 
 ## Usage
 ### guide_caller.sh
 This script processes FASTQ files and extracts and counts sgRNA sequences. It uses various genomic data processing tools and integrates with `matrix_shaper.py`.
+Before run this script, please check your directory architechture by `tree guide_caller`
+
+guide_caller
+|
+|-v1.0.0
+|	|-guide_caller.sh
+|	|-matrix_shaper.py
+|
+|-alignment_files <- *Do not change the name!
+|	|-alignment_file.csv
+|
+|-your directory
+	|-sample_name
+		|-sample_name.fastq <- fastq format should be used (not fq, *,gz)
+	|-•••
+		|-•••
 
 ### usage:
 ```bash
-sh guide_caller.sh [OPTIONS]
+sh ./v1.0.0/guide_caller.sh [OPTIONS]
 Options:
   -h          Display help
   -i VALUE    Specify the input directory (ex. "HN00171248" etc...)
   -f VALUE    Specify the alignment file (ex. Human_GeCKOv2_Library.csv)
   -c VALUE    Specify the CPU core
 ```
+
 ### matrix_shaper.py
 A Python script for transforming and analyzing count data from the CRISPR experiments. It generates a result matrix with statistical analyses in `guide_caller.sh`.
 
