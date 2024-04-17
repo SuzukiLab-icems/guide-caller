@@ -32,6 +32,7 @@ guide_caller
 
 ### usage:
 ```bash
+cd ./guide_caller
 sh ./v1.0.0/guide_caller.sh [OPTIONS]
 Options:
   -h          Display help
