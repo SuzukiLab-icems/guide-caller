@@ -38,6 +38,8 @@ Options:
   -i VALUE    Specify the input directory (ex. "HN00171248" etc...)
   -f VALUE    Specify the alignment file (ex. Human_GeCKOv2_Library.csv)
   -c VALUE    Specify the CPU core
+
+ex): 'sh ./v1.0.0/guide_caller.sh -i <your directory> -f <alignment_file.csv> -c <CPU core>'
 ```
 
 ### matrix_shaper.py
