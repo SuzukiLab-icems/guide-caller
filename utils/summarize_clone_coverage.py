@@ -2,8 +2,8 @@
 ###########################################################################
 #guide_caller/utils/sumamrize_clone_coverage.py
 #
-#	 Copyright (c) 2024, Noguchi Yuki (Jun Suzuki lab)
-#	 This software is released under the MIT License, see LICENSE (https://opensource.org/license/mit/).
+#    Copyright (c) 2024, Noguchi Yuki (Jun Suzuki lab)
+#    This software is released under the MIT License, see LICENSE (https://opensource.org/license/mit/).
 #    @citation: Noguchi, Y., Maruoka, M., Suzuki, J. 2024. STAR Protocols.
 #    @author:  Noguchi Yuki
 #    @contact: nyuhki21@gmail.com,jsuzuki@icems.kyoto-u.ac.jp
