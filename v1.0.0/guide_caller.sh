@@ -80,7 +80,7 @@ function config {
 }
 
 function env_setting {
-	LIST=$(find "./DEMO_v1.0.0" -mindepth 1 -maxdepth 1 -type d)
+	LIST=$(find "${input_directory}" -mindepth 1 -maxdepth 1 -type d)
 	for SampleID in `echo ${LIST}`;do
 		mkdir ./${input_directory}/${SampleID}/${SampleID}_fastqc
 		mkdir ./${input_directory}/${SampleID}/mageck_result
