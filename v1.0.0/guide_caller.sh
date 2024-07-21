@@ -53,9 +53,9 @@ EOM
 function argparse {
     while getopts ":i:f:c:h" opt; do
         case "$opt" in
-			i) input_directory="${OPTARG}" ;;
+	    i) input_directory="${OPTARG}" ;;
             f) alignment_file="${OPTARG}" ;;
-			c) cpu="${OPTARG}" ;;
+            c) cpu="${OPTARG}" ;;
             h) usage ;;
             \?) echo "Invalid option: -$OPTARG" >&2; usage ;;
             :)  echo "Option -$OPTARG requires an argument." >&2; exit 1 ;;
@@ -80,7 +80,7 @@ function config {
 }
 
 function env_setting {
-	LIST=$(find "${input_directory}" -mindepth 1 -maxdepth 1 -type d)
+	LIST=$(find "${input_directory}" -mindepth 1 -maxdepth 1 -type d -exec basename {} \;)
 	for SampleID in `echo ${LIST}`;do
 		mkdir ./${input_directory}/${SampleID}/${SampleID}_fastqc
 		mkdir ./${input_directory}/${SampleID}/mageck_result
